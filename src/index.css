@@ -1,0 +1,28 @@
+@import 'tailwindcss';
+
+@layer base{
+    body{
+        @apply bg-[#000000] text-white;
+    }
+}
+@layer components{
+    .link-style{
+        @apply px-2 transition-all hover:text-gray-300
+    }
+    .form-control{
+        @apply w-full rounded-lg bg-[#3a3a3a] py-4 px-3 text-lg text-white outline-none mt-10
+    }
+    .btn{
+        @apply mt-10 w-full rounded-lg bg-[#e50914] p-4 text-white
+    }
+}
+
+/* Hide scrollbar for all scrollable containers */
+.scrollbar-hide {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;     /* Firefox */
+  }
+  
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;  /* Chrome, Safari, Opera */
+  }
