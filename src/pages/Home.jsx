@@ -1,7 +1,7 @@
 import React from 'react'
 import HomeHero from '../components/HomeHero';
 import Features from '../components/featurs/Features';
-import Faqs from '../components/faqs/faqs';
+import Faqs from '../components/faqs/Faqs';
 import Footers from '../components/footers/Footers';
 
 const Home = () => {

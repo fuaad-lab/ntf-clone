@@ -1,5 +1,5 @@
 import React from 'react'
-import Faq from './faq';
+import Faq from './Faq';
 import faqData from '../../content/faq.json'
 import Subscribe from '../Subscribe';
 
